@@ -4,7 +4,7 @@ COPY package.json .
 COPY *.js .
 RUN npm install
 # bridge network
-#ENV DB_HOST="mysql"    
+ENV DB_HOST="mysql"    
 # host network
-ENV DB_HOST="localhost"
+#ENV DB_HOST="localhost"
 CMD ["node", "index.js"]
