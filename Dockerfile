@@ -1,5 +1,5 @@
 FROM node:20
-WORKDIR /opt/backend
+WORKDIR /opt/image-layer
 COPY package.json ./
 COPY *.js ./
 RUN npm install
