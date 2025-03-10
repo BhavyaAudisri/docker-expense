@@ -23,7 +23,7 @@ services:
     - mysql:/var/lib/mysql
 
   frontend:
-    image: bhavyasomisetti/frontend:1.0.0
+    image: bhavyasomisetti/frontend:1.1.0
     networks:
     - expense
     container_name: frontend
